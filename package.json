@@ -1,0 +1,20 @@
+{
+  "name": "serverless-extra-parameters",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mits87/serverless-extra-parameters"
+  },
+  "scripts": {
+    "test": "jest --env node",
+    "test:watch": "jest --env node --watch"
+  },
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "serverless": "3"
+  }
+}
